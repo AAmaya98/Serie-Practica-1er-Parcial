@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ADFF2F; /* Verde */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #FFFF99; /* Amarillo */
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0000FF; /* Azul */
+    padding: 10px;
+    height: 400px; /* Ajusta esta altura según sea necesario */
+    margin: 10px 0;
+}
+
+.sn {
+    background-color: #AFEEEE; /* Celeste opaco */
+    flex-basis: 80%;
+    padding: 20px;
+}
+
+.p {
+    background-color: #E0FFFF; /* Celeste super claro */
+    flex-basis: 20%;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FFA500; /* Naranja */
+    padding: 20px;
+    text-align: center;
+}
